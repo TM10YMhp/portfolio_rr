@@ -4,7 +4,11 @@ import type { Route } from "./+types/_index";
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "Alejandro Maturrano - Desarrollador Web." },
-    { name: "description", content: "" },
+    {
+      name: "description",
+      content:
+        "Soy un desarrollador web apasionado que codifica hermosos sitios web y aplicaciones.",
+    },
   ];
 }
 

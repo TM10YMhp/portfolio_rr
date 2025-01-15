@@ -20,8 +20,8 @@ function Heading() {
         />
       </p>
       <p className="text-base-content/70 text-xl sm:text-2xl max-w-3xl mx-auto">
-        He creado aplicaciones y sitios web usando desde HTML hasta React
-        (incluso PHP). Estos son algunos de mis proyectos favoritos.
+        He creado aplicaciones y sitios web usando desde HTML hasta React. Estos
+        son algunos de mis proyectos favoritos.
       </p>
     </div>
   );

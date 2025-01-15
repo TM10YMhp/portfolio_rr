@@ -69,7 +69,11 @@ function ThemeSelector() {
 
   return (
     <div className="dropdown dropdown-end">
-      <div tabIndex={0} role="button" className="btn btn-sm btn-outline m-1">
+      <div
+        tabIndex={0}
+        role="button"
+        className="btn btn-sm btn-outline m-1 flex-nowrap"
+      >
         {/* <span>{theme} </span> */}
         <span>
           <IconExp />
@@ -86,7 +90,7 @@ function ThemeSelector() {
       </div>
       <ul
         tabIndex={0}
-        className="dropdown-content bg-base-300 rounded-box z-[1] w-52 p-2 shadow-2xl"
+        className="dropdown-content bg-base-300 rounded-box w-52 p-2 shadow-2xl max-h-[70vh] overflow-y-auto z-20"
       >
         {themes.map((item) => (
           <li key={item.value}>
@@ -122,17 +126,19 @@ export function Navbar() {
           src="/imgs/output.webp"
           width="60"
         />
-        {"@TM10YMhp".split("").map((letter, index) => (
-          <span
-            key={index}
-            className={cx(
-              "hover:text-primary hover:-mt-2 hover:duration-100",
-              "transition-all duration-500",
-            )}
-          >
-            {letter}
-          </span>
-        ))}
+        <div className="max-[560px]:hidden flex items-center">
+          {"@TM10YMhp".split("").map((letter, index) => (
+            <span
+              key={index}
+              className={cx(
+                "hover:text-primary hover:-mt-2 hover:duration-100",
+                "transition-all duration-500",
+              )}
+            >
+              {letter}
+            </span>
+          ))}
+        </div>
       </Link>
       <ul className="flex items-center space-x-10">
         {routes.map((item, index) => (
