@@ -23,9 +23,9 @@ function ThemeSelector() {
   );
 
   const themes = [
-    { value: "default", label: "Default" },
-    { value: "light", label: "Light" },
+    // { value: "system", label: "System" },
     { value: "dark", label: "Dark" },
+    { value: "light", label: "Light" },
     ...enabled_themes.map((x: string) => ({
       value: x,
       label: x.charAt(0).toUpperCase() + x.slice(1),
