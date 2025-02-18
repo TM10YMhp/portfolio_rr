@@ -30,7 +30,7 @@ function Heading() {
 function Projects() {
   return (
     <div className="grid grid-cols-1 gap-4 md:grid-cols-3 items-start">
-      {projects.slice(0, 3).map((item, index) => (
+      {projects.slice(0, 6).map((item, index) => (
         <ProjectCard key={index} project={item} />
       ))}
     </div>
@@ -44,7 +44,7 @@ export function ProjectsPage() {
     <main className="text-center mb-20">
       <Heading />
       <Projects />
-      <p className="py-40 italic text-base-content/70">
+      <p className="py-32 italic text-base-content/70">
         🚧 ¡Aqui tengo otros proyectos que he creado con el pasar el tiempo! 🚧
         {/* Oye, oye, oye... ¡Tengo aún más proyectos en{" "} */}
         {/* <a */}
@@ -59,7 +59,7 @@ export function ProjectsPage() {
       </p>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3 items-start">
-        {projects.slice(3).map((item, index) => (
+        {projects.slice(6).map((item, index) => (
           <ProjectCard key={index} project={item} />
         ))}
       </div>
