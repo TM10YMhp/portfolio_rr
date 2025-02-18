@@ -1,6 +1,18 @@
 import { ProjectCard } from "~/components/project_card";
 import { projects } from "~/shared/data";
 import { cx } from "~/shared/utils/cx";
+import type { Route } from "./+types/projects";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Proyectos - Alejandro Maturrano" },
+    {
+      name: "description",
+      content:
+        "¡Me encanta programar con herramientas como React, NextJS, Tailwind y muchas más! Estos son algunos de mis proyectos favoritos.",
+    },
+  ];
+}
 
 function Heading() {
   return (
@@ -37,9 +49,7 @@ function Projects() {
   );
 }
 
-export default Projects;
-
-export function ProjectsPage() {
+export default function ProjectsPage() {
   return (
     <main className="text-center mb-20">
       <Heading />

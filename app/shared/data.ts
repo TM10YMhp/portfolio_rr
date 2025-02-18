@@ -26,10 +26,10 @@ export const projects: Project[] = [
     tags: ["React", "CodeMirror"],
   },
   {
-    title: "Station-98",
+    title: "Station98",
     desc: "Un clon de spotify. Lo creé para practicar con React, TailwindCSS y CSS.",
     img: "/projects/station.webp",
-    link: "https://station.netlify.app/",
+    link: "https://station98.netlify.app/",
     github: "https://github.com/TM10YMhp/station_react",
     tags: ["React", "TailwindCSS", "CSS", "Zustand"],
   },

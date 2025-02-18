@@ -8,20 +8,17 @@ importers:
 
   .:
     dependencies:
-      '@react-router/fs-routes':
-        specifier: ^7.1.1
-        version: 7.1.5(@react-router/dev@7.1.5(@react-router/serve@7.1.5(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(typescript@5.7.3))(@types/node@20.17.19)(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(typescript@5.7.3)(vite@5.4.14(@types/node@20.17.19)))(typescript@5.7.3)
       '@react-router/node':
-        specifier: ^7.1.1
+        specifier: ^7.1.5
         version: 7.1.5(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(typescript@5.7.3)
       '@react-router/serve':
-        specifier: ^7.1.1
+        specifier: ^7.1.5
         version: 7.1.5(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(typescript@5.7.3)
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
       isbot:
-        specifier: ^5.1.17
+        specifier: ^5.1.22
         version: 5.1.22
       react:
         specifier: ^19.0.0
@@ -30,29 +27,29 @@ importers:
         specifier: ^19.0.0
         version: 19.0.0(react@19.0.0)
       react-router:
-        specifier: ^7.1.1
+        specifier: ^7.1.5
         version: 7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react-scroll:
-        specifier: ^1.9.0
+        specifier: ^1.9.2
         version: 1.9.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       remix-utils:
-        specifier: ^8.0.0
+        specifier: ^8.1.0
         version: 8.1.0(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)
     devDependencies:
       '@netlify/vite-plugin-react-router':
         specifier: ^1.0.0
         version: 1.0.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)(vite@5.4.14(@types/node@20.17.19))
       '@react-router/dev':
-        specifier: ^7.1.1
+        specifier: ^7.1.5
         version: 7.1.5(@react-router/serve@7.1.5(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(typescript@5.7.3))(@types/node@20.17.19)(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(typescript@5.7.3)(vite@5.4.14(@types/node@20.17.19))
       '@types/node':
         specifier: ^20
         version: 20.17.19
       '@types/react':
-        specifier: ^19.0.1
+        specifier: ^19.0.10
         version: 19.0.10
       '@types/react-dom':
-        specifier: ^19.0.1
+        specifier: ^19.0.4
         version: 19.0.4(@types/react@19.0.10)
       '@types/react-scroll':
         specifier: ^1.8.10
@@ -64,13 +61,13 @@ importers:
         specifier: ^4.12.23
         version: 4.12.23(postcss@8.5.2)
       postcss:
-        specifier: ^8.4.49
+        specifier: ^8.5.2
         version: 8.5.2
       tailwindcss:
         specifier: ^3.4.16
         version: 3.4.17
       typescript:
-        specifier: ^5.7.2
+        specifier: ^5.7.3
         version: 5.7.3
       vite:
         specifier: ^5.4.11
@@ -441,16 +438,6 @@ packages:
     peerDependencies:
       express: ^4.17.1
       react-router: 7.1.5
-      typescript: ^5.1.0
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-
-  '@react-router/fs-routes@7.1.5':
-    resolution: {integrity: sha512-Ncu8WHZNGKPXSKQZyoSRJsZaV9FnzbX3g/NRPzY88O7zwvURjebgMpq8K4rNdvbacTHg6/3umIFeCS0K9HdWPQ==}
-    engines: {node: '>=20.0.0'}
-    peerDependencies:
-      '@react-router/dev': ^7.1.5
       typescript: ^5.1.0
     peerDependenciesMeta:
       typescript:
@@ -2162,13 +2149,6 @@ snapshots:
       '@react-router/node': 7.1.5(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(typescript@5.7.3)
       express: 4.21.2
       react-router: 7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-    optionalDependencies:
-      typescript: 5.7.3
-
-  '@react-router/fs-routes@7.1.5(@react-router/dev@7.1.5(@react-router/serve@7.1.5(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(typescript@5.7.3))(@types/node@20.17.19)(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(typescript@5.7.3)(vite@5.4.14(@types/node@20.17.19)))(typescript@5.7.3)':
-    dependencies:
-      '@react-router/dev': 7.1.5(@react-router/serve@7.1.5(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(typescript@5.7.3))(@types/node@20.17.19)(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(typescript@5.7.3)(vite@5.4.14(@types/node@20.17.19))
-      minimatch: 9.0.5
     optionalDependencies:
       typescript: 5.7.3
 
