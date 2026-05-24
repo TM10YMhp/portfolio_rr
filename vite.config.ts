@@ -2,9 +2,15 @@ import { reactRouter } from "@react-router/dev/vite";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vite";
 import { vanillaExtractPlugin } from "@vanilla-extract/vite-plugin";
+import netlifyReactRouter from "@netlify/vite-plugin-react-router";
 
 export default defineConfig({
-  plugins: [vanillaExtractPlugin(), tailwindcss(), reactRouter()],
+  plugins: [
+    vanillaExtractPlugin(),
+    tailwindcss(),
+    reactRouter(),
+    netlifyReactRouter()
+  ],
   resolve: {
     tsconfigPaths: true,
   },
