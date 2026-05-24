@@ -69,7 +69,7 @@ export function Skills() {
           src={imgLaptop}
         />
         <img
-          className="animate-float hidden md:block place-self-start justify-self-end"
+          className="animate-float hidden md:block place-self-start justify-self-end ml-auto" // fix firefox
           src={imgCoding}
         />
       </p>

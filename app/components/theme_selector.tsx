@@ -181,6 +181,7 @@ export default function ThemeSelector() {
       <div
         tabIndex={0}
         className={[
+          "scrollbar-gutter-stable", // fix firefox
           "dropdown-content bg-base-200 text-base-content rounded-box top-px h-122",
           "max-h-[calc(100vh-8.6rem)] overflow-y-auto border-(length:--border) border-white/5",
           "shadow-2xl outline-(length:--border) outline-black/5 mt-16",
