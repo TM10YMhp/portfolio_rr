@@ -1,16 +1,25 @@
 import { reactRouter } from "@react-router/dev/vite";
-import autoprefixer from "autoprefixer";
-import tailwindcss from "tailwindcss";
+import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vite";
-import tsconfigPaths from "vite-tsconfig-paths";
-
-import netlifyPlugin from "@netlify/vite-plugin-react-router";
+import { vanillaExtractPlugin } from "@vanilla-extract/vite-plugin";
 
 export default defineConfig({
-  css: {
-    postcss: {
-      plugins: [tailwindcss, autoprefixer],
-    },
+  plugins: [vanillaExtractPlugin(), tailwindcss(), reactRouter()],
+  resolve: {
+    tsconfigPaths: true,
   },
-  plugins: [reactRouter(), tsconfigPaths(), netlifyPlugin()],
+  // server: {
+  //   proxy: {
+  //     "/.well-known/appspecific/com.chrome.devtools.json": {
+  //       target: "http://localhost:5173", // o tu puerto
+  //       bypass: (req, res) => {
+  //         console.log("bypass");
+  //         if (!res) return false;
+  //         res.statusCode = 204;
+  //         res.end();
+  //         return false;
+  //       },
+  //     },
+  //   },
+  // },
 });

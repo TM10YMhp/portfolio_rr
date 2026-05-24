@@ -1,90 +1,198 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-body {
-  width: 100%;
-  min-height: 100vh;
-  overflow-x: hidden;
+/* NOTE: https://github.com/vitejs/vite/issues/22323 */
+@plugin "daisyui/index.js" {
+  themes: all;
 }
 
-/* ::-webkit-scrollbar { */
-/*   width: 8px; */
-/* } */
-/**/
-/* ::-webkit-scrollbar-track { */
-/*   background: transparent; */
-/*   border-left: 1px solid red; */
-/* } */
-/**/
-/* ::-webkit-scrollbar-thumb { */
-/*   background-color: color-mix(in oklch, currentColor 35%, transparent); */
-/*   backdrop-filter: blur(5px); */
-/*   border-radius: 10px; */
-/* } */
-/**/
-/* ::-webkit-scrollbar-thumb:hover { */
-/*   background-color: color-mix(in oklch, currentColor 60%, transparent); */
-/* } */
-
-/* * { */
-/*   scrollbar-color: unset; */
-/*   &:hover { */
-/*     scrollbar-color: unset; */
-/*   } */
-/* } */
-
-.landingSectionTitle::before {
-  content: "";
-  position: absolute;
-  left: 105%;
-  right: 0px;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 4px;
-  width: 100vw;
-  @apply bg-primary;
+@plugin "daisyui/theme" {
+  name: "dark";
+  default: true;
+  --color-base-100: #000a1f;
+  --color-base-content: #ffffff;
+  --color-neutral-content: #7b89a8;
+  --color-primary: #00c7ff;
+  --color-secondary: #192742;
 }
 
-@media (max-width: 768px) {
-  .landingSectionTitle::before {
-    left: 50%;
-    right: auto;
-    top: -20px;
-    transform: translate(-50%, -50%);
-    height: 8px;
-    width: 150px;
-    @apply bg-primary;
+@theme {
+  --font-sans:
+    "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --animate-scale-down: scaleDownIn 1.5s cubic-bezier(0.87, 0, 0.13, 1);
+  --animate-float: float 3s ease-in-out infinite;
+
+  @keyframes scaleDownIn {
+    from {
+      opacity: 0;
+      transform: scale(4) translateY(0px);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1) translateY(0px);
+    }
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(15px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+  --animate-fade-in-scale: fade-in-scale 0.3s ease-out;
+  @keyframes fade-in-scale {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  --animate-fade-in: fade-in 0.3s ease-out;
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }
 
-@keyframes scaleDownIn {
-  from {
-    opacity: 0;
-    transform: scale(4) translateY(0px);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1) translateY(0px);
-  }
+/* ::-webkit-scrollbar {
+  width: 8px;
 }
 
-@keyframes float {
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-left: 1px solid red;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: color-mix(in oklch, currentColor 35%, transparent);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: color-mix(in oklch, currentColor 60%, transparent);
+}
+
+* {
+  scrollbar-color: unset;
+  &:hover {
+    scrollbar-color: unset;
+  }
+} */
+
+[data-theme="eink"] {
+  filter: saturate(0);
+  --color-base-100: #ffffff;
+  --color-base-200: #ffffff;
+  --color-base-300: #ffffff;
+  --color-base-content: #000000;
+  --color-primary: #585757;
+  --color-primary-content: #000000;
+  --color-secondary: #585757;
+  --color-secondary-content: #000000;
+  --color-accent: #585757;
+  --color-accent-content: #000000;
+  --color-neutral: #585757;
+  --color-neutral-content: #000000;
+  --color-info: #585757;
+  --color-info-content: #000000;
+  --color-success: #585757;
+  --color-success-content: #000000;
+  --color-warning: #585757;
+  --color-warning-content: #000000;
+  --color-error: #585757;
+  --color-error-content: #000000;
+}
+
+[data-theme="xterm"] {
+  --color-base-100: black;
+  --color-base-200: black;
+  --color-base-300: black;
+  --color-base-content: lime;
+  --color-primary: lime;
+  --color-primary-content: black;
+  --color-secondary: lime;
+  --color-secondary-content: black;
+  --color-accent: lime;
+  --color-accent-content: black;
+  --color-neutral: lime;
+  --color-neutral-content: black;
+  --color-info: lime;
+  --color-info-content: black;
+  --color-success: lime;
+  --color-success-content: black;
+  --color-warning: lime;
+  --color-warning-content: black;
+  --color-error: lime;
+  --color-error-content: black;
+}
+
+/* Drunk */
+@font-face {
+  font-family: "Drunk";
+  src: url("./assets/fonts/CommitMonoV143-Edent.woff2") format("woff2");
+  /* Lower-Case Vowels */
+  unicode-range: U+61, U+65, U+69, U+6F, U+75;
+  size-adjust: 105%;
+}
+
+/* [data-theme=drunk] *:nth-child(3n) { */
+[data-theme="drunk"] *:nth-child(3n):not(:nth-child(3)) {
+  transform: rotate(2deg);
+}
+[data-theme="drunk"] *:nth-child(5n) {
+  transform: skew(5deg, 5deg);
+}
+[data-theme="drunk"] *:nth-child(7n) {
+  transform: rotate(-3deg);
+}
+[data-theme="drunk"] p::first-letter {
+  font-size: 0.5em;
+}
+[data-theme="drunk"] * {
+  font-family: "Drunk", cursive;
+  font-style: oblique 12deg;
+  text-align: end;
+}
+[data-theme="drunk"] body {
+  filter: blur(0.1ch) saturate(2.5);
+}
+[data-theme="drunk"] a {
+  animation-name: bounce;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
   0% {
-    transform: translateY(0px);
+    margin-top: 0ch;
+  }
+  25% {
+    margin-top: -1ch;
   }
   50% {
-    transform: translateY(15px);
+    margin-top: 0ch;
+  }
+  75% {
+    margin-top: 1ch;
   }
   100% {
-    transform: translateY(0px);
+    margin-top: 0ch;
   }
-}
-
-/* .heroElem { */
-/*   animation: scaleDownIn 1.5s cubic-bezier(0.87, 0, 0.13, 1); */
-/* } */
-
-.sqD {
-  animation: float 3s infinite ease-in-out;
 }

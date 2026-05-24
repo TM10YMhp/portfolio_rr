@@ -1,4 +1,4 @@
-import type { Route } from "./+types/home";
+import type { Route } from "./+types";
 import { Hero } from "./components/hero";
 import { Projects } from "./components/projects";
 import { Skills } from "./components/skills";
@@ -9,14 +9,14 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Soy un desarrollador web apasionado que codifica hermosos sitios web y aplicaciones.",
+        "Soy un desarrollador web apasionado que codifica sitios web y aplicaciones.",
     },
   ];
 }
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <main className="space-y-20 mb-20">
+    <main className="flex flex-col gap-20 mb-20">
       <Hero />
       <Projects />
       <Skills />

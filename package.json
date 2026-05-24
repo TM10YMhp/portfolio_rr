@@ -3,35 +3,31 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "cross-env NODE_ENV=production react-router build",
+    "build": "react-router build",
     "dev": "react-router dev",
-    "start": "cross-env NODE_ENV=production react-router-serve ./build/server/index.js",
+    "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
-    "@react-router/node": "^7.1.5",
-    "@react-router/serve": "^7.1.5",
-    "cross-env": "^7.0.3",
-    "isbot": "^5.1.22",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router": "^7.1.5",
-    "react-scroll": "^1.9.2",
-    "remix-utils": "^8.1.0"
+    "@react-router/node": "7.15.0",
+    "@react-router/serve": "7.15.0",
+    "isbot": "^5.1.36",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-router": "7.15.0",
+    "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
-    "@netlify/vite-plugin-react-router": "^1.0.0",
-    "@react-router/dev": "^7.1.5",
-    "@types/node": "^20",
-    "@types/react": "^19.0.10",
-    "@types/react-dom": "^19.0.4",
-    "@types/react-scroll": "^1.8.10",
-    "autoprefixer": "^10.4.20",
-    "daisyui": "^4.12.23",
-    "postcss": "^8.5.2",
-    "tailwindcss": "^3.4.16",
-    "typescript": "^5.7.3",
-    "vite": "^5.4.11",
-    "vite-tsconfig-paths": "^5.1.4"
+    "@react-router/dev": "7.15.0",
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/node": "^22",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vanilla-extract/css": "^1.20.1",
+    "@vanilla-extract/vite-plugin": "^5.2.2",
+    "daisyui": "^5.5.19",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.3"
   }
 }

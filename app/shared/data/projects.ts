@@ -1,4 +1,11 @@
-import type { Project } from "./types";
+export type Project = {
+  title: string;
+  desc: string;
+  img: string;
+  link?: string;
+  github?: string;
+  tags: string[];
+};
 
 export const projects: Project[] = [
   {
