@@ -1,0 +1,9 @@
+# https://github.com/vercel/next.js/blob/canary/packages/create-next-app/templates/index.ts#L343
+allowBuilds:
+  sharp: false
+  unrs-resolver: false
+
+# https://pnpm.io/settings#allowbuilds
+# ignoredBuiltDependencies:
+#   - sharp
+#   - unrs-resolver

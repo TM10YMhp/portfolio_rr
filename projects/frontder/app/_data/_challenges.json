@@ -1,0 +1,758 @@
+[
+ {
+   "id": "1777309935-1",
+   "title": "Savings tracker",
+   "description": "Build a savings tracker app with goal management, deposit tracking, progress visualization, and filtering. Includes optional full-stack auth screens.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/efpoyuuchyqu7zakpmrw.jpg"
+ },
+ {
+   "id": "1777309935-2",
+   "title": "Skills learning tracker",
+   "description": "Build a skills-learning tracker that lets users log practice sessions, track streaks, and visualize their consistency with heatmaps and progress rings.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/xktey5hmk86gwiokhxc9.jpg"
+ },
+ {
+   "id": "1777309935-3",
+   "title": "Personal reading list",
+   "description": "Build a personal reading list app that lets users search for books, organize them into shelves, track reading progress, and explore year-in-review statistics.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/eu4k2pufndkk4wyk6fkf.jpg"
+ },
+ {
+   "id": "1777309935-4",
+   "title": "RSS feed reader",
+   "description": "Build an RSS feed reader that lets users subscribe to blogs and news sources, organize feeds into categories, and browse articles in a unified timeline.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/i7jadhxqxallmkdkm4yc.jpg"
+ },
+ {
+   "id": "1777309935-5",
+   "title": "Typing speed test",
+   "description": "Build a typing speed test that calculates words per minute (WPM) and accuracy. A fun project to practice DOM manipulation and working with timers.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/urgzptajdim2zmd4eume.jpg"
+ },
+ {
+   "id": "1777309935-6",
+   "title": "Flashcard app",
+   "description": "Practice building interactive UI with this flashcard app. Features card flip animations, progress tracking, filtering, and study statistics.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/cxzjqnijisjlnkungmrx.jpg"
+ },
+ {
+   "id": "1777309935-7",
+   "title": "Bookmark manager app",
+   "description": "Build a fully-functional bookmark manager with add, edit, archive, search, and filter features. Perfect for practicing forms and state management.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/hopjta3ohu5tadj1qbwt.jpg"
+ },
+ {
+   "id": "1777309935-8",
+   "title": "Weather app",
+   "description": "Build a responsive weather app with search functionality, unit conversion, and detailed forecasts using the Open-Meteo API.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/aldppmnkr0tfgyuuabzg.jpg"
+ },
+ {
+   "id": "1777309935-9",
+   "title": "Recipe finder website",
+   "description": "Build a responsive recipe finder with search, filtering, and dynamic content. Practice working with JSON data, complex layouts, and interactive JavaScript features.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/nnuraq3xdxyujoruadbk.jpg"
+ },
+ {
+   "id": "1777309935-10",
+   "title": "Mood tracking app",
+   "description": "Building this app will be a fun way to test a range of your skills. From working with JSON data to logging and charting mood entries, there's a lot to get stuck into!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/j0xkaj1fw2elr5at5ee8.jpg"
+ },
+ {
+   "id": "1777309935-11",
+   "title": "Browser extension manager UI",
+   "description": "This project will be a fun way to practice working with dynamic data, filtering data, color theming, building a responsive grid, and more!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/rdasumeaufbhpmdjowwj.jpg"
+ },
+ {
+   "id": "1777309935-12",
+   "title": "Personal blog",
+   "description": "This multi-page personal blog project has a JSON file to practice working with dynamic data. You can even use a headless CMS to take the difficulty up a notch!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/drcdupa0o8ufwrpehhhq.jpg"
+ },
+ {
+   "id": "1777309935-13",
+   "title": "Character counter",
+   "description": "This project will test a range of your skills, especially your JavaScript, with the counters and letter density graph. The theme switcher is another little challenge.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/giwjqezcwrig3xi9rjzh.jpg"
+ },
+ {
+   "id": "1777309935-14",
+   "title": "Conference ticket generator",
+   "description": "In this challenge, you'll create a form that generates a ticket. There's a lot of scope for customizing the generated ticket and putting your own stamp on the project.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/k81dmgdccd7y5ltajrvh.jpg"
+ },
+ {
+   "id": "1777309935-15",
+   "title": "Tech book club landing page",
+   "description": "This will be an excellent test of your HTML and CSS skills. The design uses common layout patterns you'll likely use in future projects, as well as some fun details.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/jc6hb2cbxsmpxzqolm0h.jpg"
+ },
+ {
+   "id": "1777309935-16",
+   "title": "Note-taking web app",
+   "description": "This project has many fun and challenging features to add, including color and font themes. It can also be built as a full-stack web app!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/u5sjoeaw3mziwkhl7yjy.jpg"
+ },
+ {
+   "id": "1777309935-17",
+   "title": "Bento grid",
+   "description": "This challenge is perfect for testing your CSS Grid and responsive skills with this bento grid layout.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/youkdcm0w5zedahid4by.jpg"
+ },
+ {
+   "id": "1777309935-18",
+   "title": "Personal finance app",
+   "description": "This app contains 5 pages (Overview, Transactions, Budgets, Pots, and Recurring Bills) and includes a lot of tricky elements. You can also build it as a full-stack app!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/dgncmovanuzj13hyobkz.jpg"
+ },
+ {
+   "id": "1777309935-19",
+   "title": "Product list with cart",
+   "description": "Practice updating the UI in multiple places based on user actions. The starter download also includes a JSON file to help you practice populating the DOM dynamically.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/icnpqquxdp6kgnzm0vyp.jpg"
+ },
+ {
+   "id": "1777309935-20",
+   "title": "Mortgage repayment calculator",
+   "description": "This mortgage calculator is an excellent project for practicing working with forms, client-side validation, and updating the DOM. Remember to focus on accessibility, too!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/ciqydc29txwqcf2vncia.jpg"
+ },
+ {
+   "id": "1777309935-21",
+   "title": "Contact form",
+   "description": "Building accessible forms is a crucial task for front-end developers. This challenge will help you practice building a form with several input types and validation.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/jntqqksdinxs3qy8uyqb.jpg"
+ },
+ {
+   "id": "1777309935-22",
+   "title": "Hangman game",
+   "description": "This project is a great all-around test. You'll need good HTML to ensure accessible navigation. There are many tricky CSS details, and the game logic will test your JS.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/bpwbhwxnm9fkqw9lh0mm.jpg"
+ },
+ {
+   "id": "1777309935-23",
+   "title": "Recipe page",
+   "description": "This challenge will help you focus on writing semantic HTML. Ensure you think through what HTML elements are most appropriate for each piece of content.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/skrrttkaqiqmh9fzvg0p.jpg"
+ },
+ {
+   "id": "1777309935-24",
+   "title": "Social links profile",
+   "description": "In this small project, you'll build out your social link-sharing profile. You can even personalize it and use it to share all your social profiles!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/cf3rlsqoovxlf7uajpva.jpg"
+ },
+ {
+   "id": "1777309935-25",
+   "title": "Blog preview card",
+   "description": "This HTML & CSS-only challenge is a perfect project for beginners getting up to speed with HTML and CSS fundamentals, like HTML structure and the box model.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/cmab9xsatnq8m04w5ikl.jpg"
+ },
+ {
+   "id": "1777309935-26",
+   "title": "FAQ accordion",
+   "description": "In this challenge, you'll build an FAQ accordion. This is an extremely common front-end pattern, so it's an excellent opportunity to get some practice in!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/nr04mhuzgpmuipedmqcc.jpg"
+ },
+ {
+   "id": "1777309935-27",
+   "title": "Frontend Quiz app",
+   "description": "This app will test your skills (as well as your knowledge!) as you build out a fully functional quiz. We provide a local JSON file to help you practice working with JSON!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/fggitxx9mfkjftdqq8lo.jpg"
+ },
+ {
+   "id": "1777309935-28",
+   "title": "Link-sharing app",
+   "description": "In this project, you'll build a fully-functional link-sharing app for developers! You'll practice working with image uploads, repeater fields, drag-and-drop, and more!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/hg4pjudclbtzgb8xmsy9.jpg"
+ },
+ {
+   "id": "1777309935-29",
+   "title": "Newsletter sign-up form with success message",
+   "description": "This will test your skills with basic form structure, validation, and submission. The success state will also be an excellent opportunity to work with DOM manipulation.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/zimchyd6aujs5y4h5wxd.jpg"
+ },
+ {
+   "id": "1777309935-30",
+   "title": "Body Mass Index calculator",
+   "description": "This body mass index (BMI) tool will be fun to build, testing your layout, JS and HTML form skills. The responsive layout shifts will also be an interesting challenge!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/v7pbc2r5ast5be2btubk.jpg"
+ },
+ {
+   "id": "1777309935-31",
+   "title": "Age calculator app",
+   "description": "This challenge is designed to sharpen your JavaScript and form validation skills. Working with dates in JavaScript can be tricky, so this will be a nice test!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/mwjogovjjnkz6f6yzdkp.jpg"
+ },
+ {
+   "id": "1777309935-32",
+   "title": "Workit landing page",
+   "description": "This HTML and CSS-only landing page will be an excellent test of your UI and responsive skills. There’s also some fun to be had creating the curved section borders!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/idpgv9arkmvkojb2kxee.jpg"
+ },
+ {
+   "id": "1777309935-33",
+   "title": "Results summary component",
+   "description": "This challenge has something for everyone. It’s a HTML and CSS only project, but we’ve also provided a JSON file of the test results for anyone wanting to practice JS.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/b03akozsxsouireonkkd.jpg"
+ },
+ {
+   "id": "1777309935-34",
+   "title": "Dictionary web app",
+   "description": "In this project, you'll integrate with the Dictionary API to create a real-world dictionary web app. Additional tests include colour themes and font selection.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/pctb0lbjgupas4lccsjd.jpg"
+ },
+ {
+   "id": "1777309935-35",
+   "title": "Multi-step form",
+   "description": "An excellent test for your form-building and JS skills, this project will pose many challenges along the way to completion.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/lpwvfibpdyycvjpukkec.jpg"
+ },
+ {
+   "id": "1777309935-36",
+   "title": "Single-page developer portfolio",
+   "description": "Test your HTML and CSS skills with this portfolio site. Basic JS knowledge is needed for the form validation. You can even customize and use this as your own site!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/vxhhu11tdpmyw2srepdk.jpg"
+ },
+ {
+   "id": "1777309935-37",
+   "title": "News homepage",
+   "description": "This news homepage will be an excellent opportunity to practice your CSS Grid skills. There will be lots of tricky decisions to make and plenty of learning opportunities!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/kq2vdzxiqeb3lxcd5vdl.jpg"
+ },
+ {
+   "id": "1777309935-38",
+   "title": "Connect Four game",
+   "description": "Your JS knowledge will be challenged in this fun project, where you'll build a two-player game. You'll write the logic for the game and how to test for win conditions.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/l12uqethss9x3xcfmiki.jpg"
+ },
+ {
+   "id": "1777309935-39",
+   "title": "Notifications page",
+   "description": "This project will be a brilliant test of your HTML, CSS, and basic JavaScript skills. You'll use JS to toggle the visual state of the notifications.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/wgwtjhvnsjnax4k6rdqw.jpg"
+ },
+ {
+   "id": "1777309935-40",
+   "title": "Password generator app",
+   "description": "This app will be an excellent test of your HTML, CSS, and JS skills. You'll build custom form controls and use JavaScript to generate random passwords.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/xt7ivwv5joqrphnncg0t.jpg"
+ },
+ {
+   "id": "1777309935-41",
+   "title": "Interactive card details form",
+   "description": "This fun project will be an excellent way to practice DOM manipulation and form validation while also putting your HTML and CSS skills to the test.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/u57dcsnhvoalnixjt6kb.jpg"
+ },
+ {
+   "id": "1777309935-42",
+   "title": "Single-page design portfolio",
+   "description": "This project will test your layout skills, especially in making the site fully responsive. The skills grid is a perfect chance to practice CSS Grid.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/ygneypulpefsmtf6acbn.jpg"
+ },
+ {
+   "id": "1777309935-43",
+   "title": "Product preview card component",
+   "description": "This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/lftjtn81b7brs2icc898.jpg"
+ },
+ {
+   "id": "1777309935-44",
+   "title": "Kanban task management web app",
+   "description": "In this project, you'll build a fully-functional task management app with a light/dark mode toggle. We provide a JSON file, so you can practice working with JSON data.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/o1mwa6sv5w41z8bj3gfa.jpg"
+ },
+ {
+   "id": "1777309935-45",
+   "title": "Expenses chart component",
+   "description": "In this challenge, you'll create a bar chart component from scratch. We provide a local JSON file, so you can add the chart data dynamically if you choose.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/xhxtaym7uzypzb37rpcc.jpg"
+ },
+ {
+   "id": "1777309935-46",
+   "title": "Skilled e-learning landing page",
+   "description": "This responsive page is perfect if you've learned the fundamentals of HTML & CSS, completed a couple of smaller projects, and want to take it up a notch.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/tgjqtvyeakym2rwnfumc.jpg"
+ },
+ {
+   "id": "1777309935-47",
+   "title": "Intro section with dropdown navigation",
+   "description": "This challenge will test your ability to create dropdown navigation menus, a common pattern on larger sites. It will also provide some nice basic layout challenges.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/rlaxdjplmeul4qe1qvh6.jpg"
+ },
+ {
+   "id": "1777309935-48",
+   "title": "In-browser markdown editor",
+   "description": "In this project, you'll build a fully-functional in-browser markdown editor application with a light/dark mode toggle. It's also perfect to build as a full-stack app!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/r2w3h15oximza3p1baqt.jpg"
+ },
+ {
+   "id": "1777309935-49",
+   "title": "Interactive rating component",
+   "description": "This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/h3hhqtj4muiy84kkawhd.jpg"
+ },
+ {
+   "id": "1777309935-50",
+   "title": "Entertainment web app",
+   "description": "This multi-page entertainment web app will have you working with JSON data, routing, state management, and search functionality.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/maz79cid0jllq0js0qyi.jpg"
+ },
+ {
+   "id": "1777309935-51",
+   "title": "Advice generator app",
+   "description": "The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/sfl8uqvq75wnnr559ksp.jpg"
+ },
+ {
+   "id": "1777309935-52",
+   "title": "Suite landing page",
+   "description": "This small-ish HTML and CSS only landing page includes some interesting layout decisions. Perfect if you want to put your layout and responsive skills to the test!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/mflwrbyf8kjvqvpxq9uj.jpg"
+ },
+ {
+   "id": "1777309935-53",
+   "title": "QR code component",
+   "description": "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/qh97gysgjrzqyqlig2al.jpg"
+ },
+ {
+   "id": "1777309935-54",
+   "title": "Tic Tac Toe game",
+   "description": "This classic practice project for web developers is a great exercise to complete. It will test your HTML semantics, your grid layout skill, as well as your JS logic.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/cfr9ssywcgjpcg7or928.jpg"
+ },
+ {
+   "id": "1777309935-55",
+   "title": "Interactive comments section",
+   "description": "This is project will put your JavaScript skills to the test. We provide a JSON file to pull the data, but it's also a perfect project to build as a full-stack CRUD app!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/i8zblmqsbqixz1tbhc0v.jpg"
+ },
+ {
+   "id": "1777309935-56",
+   "title": "Art gallery website",
+   "description": "This two-page art gallery project will be perfect if you're ready to branch out beyond single landing pages. There are some particularly interesting layout challenges!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/bg8nbm2pzsg3hpuqqmmv.jpg"
+ },
+ {
+   "id": "1777309935-57",
+   "title": "NFT preview card component",
+   "description": "This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/rinokvkluq95madbvtmk.jpg"
+ },
+ {
+   "id": "1777309935-58",
+   "title": "Equalizer landing page",
+   "description": "This challenge will be a perfect test of your HTML & CSS skills. If you're starting to get comfortable building smaller projects, this will be a great step up.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/etbwqlcp7pl4t5opxube.jpg"
+ },
+ {
+   "id": "1777309935-59",
+   "title": "Space tourism multi-page website",
+   "description": "This project is a fun collaboration with Scrimba and Kevin Powell! If you like, you can follow along and watch Kevin complete the project on Scrimba. Lots to learn!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/bbbbk7sghmqsg4zhqdo6.jpg"
+ },
+ {
+   "id": "1777309935-60",
+   "title": "E-commerce product page",
+   "description": "In this challenge, you'll build a beautiful product page. We'll be putting your JS skills to the test with a lightbox product gallery and cart functionality!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/nnhmflkuam4gr1dnnddf.jpg"
+ },
+ {
+   "id": "1777309935-61",
+   "title": "Memory game",
+   "description": "This project will be an excellent test for your HTML, CSS, and JS skills! You'll be building a fun memory game where players try to match pairs.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/lphd7s3gcbcgcxmfjt19.jpg"
+ },
+ {
+   "id": "1777309935-62",
+   "title": "Time tracking dashboard",
+   "description": "A perfect opportunity to practice your CSS Grid skills. For anyone wanting to take it up a notch, we provide a JSON data file to practice working with data.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/j1ocp59n25odoftocgpi.jpg"
+ },
+ {
+   "id": "1777309935-63",
+   "title": "GitHub user search app",
+   "description": "In this project, you'll use the GitHub users API to pull profile data and display it. It's a great challenge if you're looking to practice working with a 3rd-party API.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/nr37our6z7faztmhwj9r.jpg"
+ },
+ {
+   "id": "1777309935-64",
+   "title": "Order summary component",
+   "description": "A perfect project for newbies who are starting to build confidence with layouts!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/ouobx6tvyduidzio7wr7.jpg"
+ },
+ {
+   "id": "1777309935-65",
+   "title": "Galleria slideshow site",
+   "description": "This art gallery slideshow project will be a great test for your layout and JS skills. With the masonry layout, slideshow logic, and lightbox view there's a lot to build!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/nlvtx70nqb7vj1xfwj22.jpg"
+ },
+ {
+   "id": "1777309935-66",
+   "title": "Tip calculator app",
+   "description": "This small app is perfect for anyone starting to get to grips with JavaScript. The calculator functionality will be a nice test!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/hxkpctp6cd1meeytfdl2.jpg"
+ },
+ {
+   "id": "1777309935-67",
+   "title": "Product feedback app",
+   "description": "This will be a perfect portfolio piece! You'll be working with JSON, managing state, and building like a real-world app. You can even create it as a full-stack project!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/zbq5rrhkqt63eodwcxcs.jpg"
+ },
+ {
+   "id": "1777309935-68",
+   "title": "Agency landing page",
+   "description": "This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/pigotdvhcch2b3wp9uuc.jpg"
+ },
+ {
+   "id": "1777309935-69",
+   "title": "Planets fact site",
+   "description": "In this challenge, you'll be building out an 8-page fact site for all planets in our solar system. This project will make an incredible portfolio piece when completed!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/wrljilk72cxhipdjyhpa.jpg"
+ },
+ {
+   "id": "1777309935-70",
+   "title": "Calculator app",
+   "description": "This calculator app will be a great test of your CSS and JS skills especially. If you're wanting to practice using Grid, this challenge will be perfect for you!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/zjx3vvssz4f9zxr2djai.jpg"
+ },
+ {
+   "id": "1777309935-71",
+   "title": "Audiophile e-commerce website",
+   "description": "This huge e-commerce challenge will provide an incredible test for your front-end skills. Once you're done, you'll have an amazing project to add to your portfolio!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/xfevkvpujubwentbteg6.jpg"
+ },
+ {
+   "id": "1777309935-72",
+   "title": "Stats preview card component",
+   "description": "This is a great small challenge to help get you used to building to a design. There's no JS in this project, so you'll be able to focus on your HTML & CSS skills.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/sucvvhutd4codsxpzvw7.jpg"
+ },
+ {
+   "id": "1777309935-73",
+   "title": "Meet landing page",
+   "description": "This HTML & CSS only challenge is perfect if you're starting to get a bit comfortable with your layout skills. The responsive layout shifts will also be a great test!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/edwlbe4gedvld6yqyazw.jpg"
+ },
+ {
+   "id": "1777309935-74",
+   "title": "3-column preview card component",
+   "description": "This challenge is perfect if you're just getting started. The shift between the layouts will be a nice test if you're new to building responsive projects.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/juir90bwmmvlo86g9paz.jpg"
+ },
+ {
+   "id": "1777309935-75",
+   "title": "Typemaster pre-launch landing page",
+   "description": "This project will be a perfect opportunity to put your CSS Grid skills to the test. The layout shifts from mobile, to tablet, to desktop will also be a nice challenge.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/h5oer4lxahk5ccqvyowy.jpg"
+ },
+ {
+   "id": "1777309935-76",
+   "title": "Blogr landing page",
+   "description": "Flex your layout muscles with this landing page challenge. You'll mostly be working with HTML & CSS for this project with a tiny bit of JS for the mobile menu.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/wdor1bppurckam2nrhwn.jpg"
+ },
+ {
+   "id": "1777309935-77",
+   "title": "Invoice app",
+   "description": "This invoicing app project will test you on many levels. You'll be working with JSON data, managing state, plus a lot more. You can even build it out as a full-stack app!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/ael6vr3wsyatqcrzxzg1.jpg"
+ },
+ {
+   "id": "1777309935-78",
+   "title": "Crowdfunding product page",
+   "description": "This challenge will test both your layout and state management skills. As visitors make pledges, your goal is to keep track of the changes.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/tbvaexdry87sqjmbzt5o.jpg"
+ },
+ {
+   "id": "1777309935-79",
+   "title": "Coffeeroasters subscription site",
+   "description": "This challenge will have you building a 3-page subscription site. As part of the project, you'll create an interactive subscription page to test your JS and logic skills!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/qwfjjtc2edfogm32keno.jpg"
+ },
+ {
+   "id": "1777309935-80",
+   "title": "Interactive pricing component",
+   "description": "In this project, you'll build out an interactive pricing component complete with custom range input slider and pricing toggle. A perfect way to test your JS skills!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/fp0qtspesm6i0miyqncg.jpg"
+ },
+ {
+   "id": "1777309935-81",
+   "title": "Maker pre-launch landing page",
+   "description": "Put your layout skills to the test with this landing page challenge. The only JS you'll need will be for the custom form validation on the email input.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/xpfjecrtnna43teylvoa.jpg"
+ },
+ {
+   "id": "1777309935-82",
+   "title": "Loopstudios landing page",
+   "description": "This challenge is perfect if you're looking to test your CSS Grid chops. Even without Grid, this project will be a fun one to help you practice your layout skills!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/f00lkcojzyklnglc3ffr.jpg"
+ },
+ {
+   "id": "1777309935-83",
+   "title": "Pomodoro app",
+   "description": "This Pomodoro app will provide some tricky challenges, including building a circular progress bar. You'll also build a range of customizations, like colors and fonts.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/brpylxucuonbpy2mujdy.jpg"
+ },
+ {
+   "id": "1777309935-84",
+   "title": "Launch countdown timer",
+   "description": "This will be a fun one! Your challenge is to build this countdown timer. There are lots of small CSS tests in the design as well. So it should keep you busy!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/yf5s8ekgwaft5w57ju6u.jpg"
+ },
+ {
+   "id": "1777309935-85",
+   "title": "Creative agency single-page site",
+   "description": "This challenge will put your layout skills to the test with lots of overlapping elements. If you're getting confident with your CSS layouts, this will be a great project!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/elfkzwrvlhcxvoy9442f.jpg"
+ },
+ {
+   "id": "1777309935-86",
+   "title": "Todo app",
+   "description": "The classic todo app with a few twists! This app includes a dark/light theme toggle and drag & drop reordering for anyone wanting an extra test.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/ty4ppudcq94rtgj4rv6p.jpg"
+ },
+ {
+   "id": "1777309935-87",
+   "title": "Pod request access landing page",
+   "description": "In this challenge, you'll be building out an early access landing page that includes custom form validation.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/gaqhj5z5pdvyztzm8mwt.jpg"
+ },
+ {
+   "id": "1777309935-88",
+   "title": "Profile card component",
+   "description": "This is a perfect challenge to test your layout skills. The card layout doesn't shift, so it's also great for those that haven't dived into responsive websites yet!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/dia0o9uigiiz4gebiqps.jpg"
+ },
+ {
+   "id": "1777309935-89",
+   "title": "Clock app",
+   "description": "This challenge will have you working with external APIs to set data based on a visitor's location. You'll also be using logic to set content depending on the time of day.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/cpub8v9o7uxugll9bwab.jpg"
+ },
+ {
+   "id": "1777309935-90",
+   "title": "Officelite coming soon site",
+   "description": "This 2-page challenge will be a perfect test if you're starting to get comfortable with your HTML & CSS skills. There are a couple of small bonus challenges too!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/vn5vgcbphrtaajszr6fn.jpg"
+ },
+ {
+   "id": "1777309935-91",
+   "title": "Testimonials grid section",
+   "description": "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/hlfgqwj3chzij3t5erjv.jpg"
+ },
+ {
+   "id": "1777309935-92",
+   "title": "Designo multi-page website",
+   "description": "This one's a BIG project! This challenge includes 5 different templates that make up a 7-page site. A perfect portfolio piece to show how you build multi-page websites!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/y70y9zpnrnhw9pxqbenq.jpg"
+ },
+ {
+   "id": "1777309935-93",
+   "title": "Devjobs web app",
+   "description": "Build a jobs board that pulls data from a local JSON file. This is a great opportunity to practice JS and get to grips with a framework/library of your choice!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/awzekbun4czymrubupcn.jpg"
+ },
+ {
+   "id": "1777309935-94",
+   "title": "Room homepage",
+   "description": "This small homepage challenge packs a big punch to test your layout skills. There's also a slider in there to add a JS layer for extra practice.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/m1v21ubdjc2n75bl8p7n.jpg"
+ },
+ {
+   "id": "1777309935-95",
+   "title": "PayAPI multi-page website",
+   "description": "This 4-page website will be a great test for your HTML & CSS skills. You'll be building out a marketing site, complete with custom form validation throughout.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/zedk6plxdzanqoinnxla.jpg"
+ },
+ {
+   "id": "1777309935-96",
+   "title": "Social proof section",
+   "description": "This project will test your layout skills. If you're starting to get confident with Flexbox or Grid, this will provide a nice challenge!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/bnjpxmx9fudsmerfj6eo.jpg"
+ },
+ {
+   "id": "1777309935-97",
+   "title": "Photosnap multi-page website",
+   "description": "In this challenge, you'll be building the marketing site for a photo-sharing app. This will be a perfect opportunity to put your CSS Grid skills to the test!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/bgjwz6i6nfnqngx7ae36.jpg"
+ },
+ {
+   "id": "1777309935-98",
+   "title": "IP Address Tracker",
+   "description": "In this challenge, you'll be using two separate APIs together to create an IP Address Tracking app.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/zfgce1seaqfllpuktpai.jpg"
+ },
+ {
+   "id": "1777309935-99",
+   "title": "Arch Studio multi-page website",
+   "description": "In this challenge, you'll be building a 4-page site that will look great in any portfolio. You'll even get the chance to play with mapping APIs if you choose the bonus.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/aywluxa3cncqcu26m3vi.jpg"
+ },
+ {
+   "id": "1777309935-100",
+   "title": "Chat app CSS illustration",
+   "description": "In this challenge, you'll be building out the entire app illustration from scratch. This will seriously test your CSS skills. So give it a go if you feel confident!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/xi4n6u5jtftsy9sbukd1.jpg"
+ },
+ {
+   "id": "1777309935-101",
+   "title": "Article preview component",
+   "description": "Practice your layout skills with this article preview component. There's lots of fun to be had playing around with animations for the sharing icons as well.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/tm7zwaa7fprabjbwbemt.jpg"
+ },
+ {
+   "id": "1777309935-102",
+   "title": "Fylo data storage component",
+   "description": "This component has some interesting CSS challenges in the design. If you're looking to test your CSS skills, this will be a great project for you!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/jve24exh4iwonznfndfc.jpg"
+ },
+ {
+   "id": "1777309935-103",
+   "title": "Coding bootcamp testimonials slider",
+   "description": "This challenge will be a nice test if you're new to JavaScript. It's also a great opportunity to play around with content animations and transitions.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/ajxwviujv7lrjghuhdxs.jpg"
+ },
+ {
+   "id": "1777309935-104",
+   "title": "Scoot multi-page website",
+   "description": "This multi-page website will really test your front-end skills. There are 4 pages to build with mobile, tablet, and desktop designs included.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/v6totnrrz9tl9fge8eyi.jpg"
+ },
+ {
+   "id": "1777309935-105",
+   "title": "Dine restaurant website",
+   "description": "This two-page website is perfect if you're starting to become more confident in your front-end skills. The challenge includes tricky design details and form validation.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/wpqtsqxuygyatac0nog7.jpg"
+ },
+ {
+   "id": "1777309935-106",
+   "title": "Social media dashboard with theme switcher",
+   "description": "This challenge will be a perfect chance to practice your Grid skills. The color theme switcher also adds a nice additional test.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/litdnhptrj3uurnnzj0m.jpg"
+ },
+ {
+   "id": "1777309935-107",
+   "title": "Minimalist portfolio website",
+   "description": "This multi-page portfolio site will be a great challenge to test your all-round front-end skills. You can even use the site as your own portfolio when you're finished!",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/zdxcoacbs8uqjynxmuh4.jpg"
+ },
+ {
+   "id": "1777309935-108",
+   "title": "Job listings with filtering",
+   "description": "In this challenge, you'll be using JavaScript to filter out jobs based on selected categories. We provide a local JSON file to help you practice working with JSON data.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/vhouwacmyw27vhcvq8zm.jpg"
+ },
+ {
+   "id": "1777309935-109",
+   "title": "Digital bank landing page",
+   "description": "This challenge will provide a nice test for your layout skills. If you're ready to move up from Junior challenges, this one is a great next step.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/o4iyywkwjc31epcmsmyo.jpg"
+ },
+ {
+   "id": "1777309935-110",
+   "title": "myteam multi-page website",
+   "description": "This challenge will give you a real glimpse into a professional front-end developer's workflow. It includes designs for a 3-page fully-functional website.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/vivqu9zlxbcv5mgxdjxq.jpg"
+ },
+ {
+   "id": "1777309935-111",
+   "title": "Manage landing page",
+   "description": "This challenge will be a great test for your responsive skills. There are lots of small details and slight content shifts for different screen sizes.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/dnn0oqu9q1r6dpq2lmr8.jpg"
+ },
+ {
+   "id": "1777309935-112",
+   "title": "Insure landing page",
+   "description": "Test your layout skills with this HTML & CSS only landing page. This challenge is perfect if you're starting to get confident in laying out web pages.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/wmd0ftb9v4qsmladsdzv.jpg"
+ },
+ {
+   "id": "1777309935-113",
+   "title": "Pricing component with toggle",
+   "description": "This challenge will get you thinking about building an accessible custom toggle control and also test your layout skills.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/sjsrx7m77v6pxswdm0mx.jpg"
+ },
+ {
+   "id": "1777309935-114",
+   "title": "Rock, Paper, Scissors game",
+   "description": "This challenge will test your HTML, CSS and JavaScript skills. There's even a Rock, Paper, Scissors, Lizard, Spock version if you really want to challenge yourself.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/hoqxujbnnumv1ildmus4.jpg"
+ },
+ {
+   "id": "1777309935-115",
+   "title": "URL shortening API landing page",
+   "description": "Integrate with the Clean URI link shortening API and play with browser storage in this landing page challenge.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/katmpcijwnmclxyfw3wr.jpg"
+ },
+ {
+   "id": "1777309935-116",
+   "title": "Four card feature section",
+   "description": "A nice layout-based challenge for beginners. This will test anyone who is new to multi-column and responsive layouts.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/a3b5gbgtfbtiqrdawpwp.jpg"
+ },
+ {
+   "id": "1777309935-117",
+   "title": "Base Apparel coming soon page",
+   "description": "This layout looks simple enough, but there are some interesting details to it that will test your CSS skills. You'll also get to practice basic form validation.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/tjmihf4uv326gkkz7mbk.jpg"
+ },
+ {
+   "id": "1777309935-118",
+   "title": "Project tracking intro component",
+   "description": "Some interesting layout and code challenges are baked into this design. Perfect if you're a beginner who is starting to get a bit more confident with your layouts.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/bfsviv4bu5yxoxxhwbeq.jpg"
+ },
+ {
+   "id": "1777309935-119",
+   "title": "Bookmark landing page",
+   "description": "This challenge will really test your layout skills. There are also areas that will require some JavaScript, such as the tabbed features section and the FAQ accordion.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/hwi1ergmy7tibqa5bvyf.jpg"
+ },
+ {
+   "id": "1777309935-120",
+   "title": "Intro component with sign-up form",
+   "description": "Practice building out a sign-up form complete with client-side validation using JavaScript.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/ficuxtmo5kmd5bb8lmws.jpg"
+ },
+ {
+   "id": "1777309935-121",
+   "title": "Single price grid component",
+   "description": "In this challenge, you will build out the pricing component to the designs provided. This is perfect for beginners and people who want to complete a smaller challenge.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/i6wu7n5sthrxgfpfibvx.jpg"
+ },
+ {
+   "id": "1777309935-122",
+   "title": "Clipboard landing page",
+   "description": "Put your layout skills to the test with this HTML & CSS landing page challenge. This challenge includes a design for hover states.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/nem2gkhh4jptjzjb0y2y.jpg"
+ },
+ {
+   "id": "1777309935-123",
+   "title": "Ping single column coming soon page",
+   "description": "This challenge is great for beginners and offers a chance to practice basic client-side form validation.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/qjiprcu1e19yvujjrflv.jpg"
+ },
+ {
+   "id": "1777309935-124",
+   "title": "REST Countries API with color theme switcher",
+   "description": "If you're wanting to test your JavaScript skills this is the challenge for you. Use whichever JS framework you prefer and pull data from the REST Countries API.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/yhq5ihanseyinzwblaw1.jpg"
+ },
+ {
+   "id": "1777309935-125",
+   "title": "Fylo dark theme landing page",
+   "description": "This design has some nice layout challenges in it. A perfect training ground to practice your Flexbox and/or Grid skills.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/mhwyzwfgaii3cw5s6jco.jpg"
+ },
+ {
+   "id": "1777309935-126",
+   "title": "Huddle landing page with a single introductory section",
+   "description": "A perfect challenge for beginners, this project will get you working with a two column layout.",
+   "heroImage": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/aaykth21moiquxkubywu.jpg"
+ }
+]

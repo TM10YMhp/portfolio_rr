@@ -1,0 +1,9 @@
+help:
+  @just --list
+
+replace file:
+  sed \
+    -e "/\"web_scraper_start_url\"/d" \
+    -e "s/\"web_scraper_order\"/\"id\"/g" \
+    -e "s/\"slug\": \".*\//\"slug\": \"/" \
+    {{file}}
