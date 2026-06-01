@@ -10,10 +10,10 @@ const nextConfig: NextConfig = {
     ],
   },
   turbopack: {
-    root: path.join(__dirname)
-  }
+    root: path.join(__dirname),
+  },
 };
 
-console.log("turbopack.root:", nextConfig?.turbopack?.root)
+console.log("turbopack.root:", nextConfig.turbopack?.root);
 
 export default nextConfig;

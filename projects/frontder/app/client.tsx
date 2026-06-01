@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useEffectEvent, useState } from "react";
 import { startDrag } from "@/lib/draggable";
 
 // https://github.com/vercel/next.js/issues/58242
@@ -12,11 +12,46 @@ import { Button } from "./_components/Button";
 import { toast } from "react-toastify";
 import { removeChallenges, saveChallenge } from "@/services/challenge";
 
+const FinalCard = () => {
+  return (
+    <div className="card h-full p-8 flex flex-col items-center justify-center text-center gap-4 animate-fade-in">
+      <span className="text-5xl">♠</span>
+      <div>
+        <p className="text-lg font-semibold mb-1">
+          ¡Revisaste todos los proyectos!
+        </p>
+        <p className="text-sm text-white/60">
+          Mira tus{" "}
+          <Link className="text-accent hover:underline" href="/liked">
+            favoritos
+          </Link>{" "}
+          o descubre más en{" "}
+          <a
+            className="text-accent hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://frontendmentor.io/challenges"
+          >
+            Frontend Mentor
+          </a>
+          .
+        </p>
+      </div>
+    </div>
+  );
+};
+
 export default function HomePageClient({ data }: { data: MinimalChallenge[] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const challenges = data.slice(currentIndex, currentIndex + 3);
 
-  const likeChallenge = async (challenge: MinimalChallenge) => {
+  const likeChallenge = async () => {
+    const challenge = challenges.at(0);
+    if (!challenge) {
+      toast.error("No hay más proyectos");
+      return;
+    }
+
     toast.promise(saveChallenge(challenge), {
       pending: "Guardando...",
       success: `"${challenge.title}" guardado`,
@@ -24,19 +59,26 @@ export default function HomePageClient({ data }: { data: MinimalChallenge[] }) {
     });
   };
 
-  const nextChallenge = useCallback(() => {
+  const nextChallenge = () => {
     if (currentIndex === data.length) return;
     setCurrentIndex((x) => x + 1);
-  }, [currentIndex, data.length]);
+  };
+
+  /** REACT 19.2 (`useEffectEvent`):
+   * - Elimina la necesidad de `useCallback` en `likeChallenge` y `nextChallenge`.
+   * - Rompe el vínculo reactivo: el `useEffect` ahora tiene dependencias vacías `[]`.
+   * - Los listeners globales se registran UNA SOLA VEZ al montar el componente.
+   * - Evita que el drag se reinicie o cause micro-stuttering, haciéndolo 100% fluido.
+   */
+  const onDragAction = useEffectEvent((liked: boolean) => {
+    if (liked) {
+      likeChallenge();
+    }
+    nextChallenge();
+  });
 
   useEffect(() => {
-    const listener = startDrag((liked) => {
-      if (liked) {
-        const challenge = challenges.at(-1);
-        if (challenge) likeChallenge(challenge);
-      }
-      nextChallenge();
-    });
+    const listener = startDrag(onDragAction);
     document.addEventListener("mousedown", listener);
     document.addEventListener("touchstart", listener, { passive: true });
 
@@ -44,12 +86,10 @@ export default function HomePageClient({ data }: { data: MinimalChallenge[] }) {
       document.removeEventListener("mousedown", listener);
       document.removeEventListener("touchstart", listener);
     };
-  }, [challenges, nextChallenge]);
+  }, []);
 
   const handleLike = async () => {
-    const challenge = challenges.at(0);
-    if (!challenge) return;
-    likeChallenge(challenge);
+    likeChallenge();
     nextChallenge();
   };
 
@@ -84,61 +124,50 @@ export default function HomePageClient({ data }: { data: MinimalChallenge[] }) {
     setCurrentIndex(0);
   };
 
+  const isEmpty = currentIndex >= data.length;
+
   return (
     <div className="flex flex-col gap-4 items-center select-none touch-none overflow-hidden">
       <div className="relative w-80 h-93.75">
-        {challenges
-          .map((challenge) => (
-            <Card
-              key={challenge.id}
-              challenge={challenge}
-              className="absolute cursor-grab"
-              draggable
-            />
-          ))
-          .reverse()}
-        <div className="content-center h-full border rounded-lg border-gray-600 p-6">
-          <p>Esos fueron todos los proyectos.</p>
-          <p>
-            Haz click{" "}
-            <Link className="underline" href="/liked">
-              aqui
-            </Link>{" "}
-            para ver tus elecciones.
-          </p>
-          <br className="my-2" />
-          <p>
-            Encuentra más proyectos en{" "}
-            <a
-              className="underline"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://frontendmentor.io/challenges"
-            >
-              Frontend Mentor
-            </a>
-            .
-          </p>
-        </div>
+        {isEmpty ? (
+          <FinalCard />
+        ) : (
+          challenges
+            .map((challenge) => (
+              <Card
+                key={challenge.id}
+                challenge={challenge}
+                className="absolute cursor-grab"
+                draggable
+              />
+            ))
+            .reverse()
+        )}
       </div>
-      <div className="grid grid-cols-2 grid-rows-2 gap-2">
+
+      <div className="grid grid-cols-2 grid-rows-2 gap-2 text-center">
         <Button
-          className="bg-red-600"
+          variant="nope"
           onClick={nextChallenge}
           nfIcon="nf-cod-error"
+          disabled={isEmpty}
         >
-          No me gusta
+          Saltar
         </Button>
         <Button
-          className="bg-green-600"
+          variant="like"
           onClick={handleLike}
           nfIcon="nf-fa-circle_check"
+          disabled={isEmpty}
         >
           Me gusta
         </Button>
-        <Button onClick={handleReset}>Volver a empezar</Button>
-        <Button as={Link} href="/liked" className="content-center text-center">
-          Ver elecciones
+
+        <Button onClick={handleReset}>
+          <i className="nf nf-fa-refresh pr-1" /> Volver a empezar
+        </Button>
+        <Button as={Link} href="/liked">
+          <i className="nf nf-fa-bookmark pr-1" /> Ver elecciones
         </Button>
       </div>
     </div>

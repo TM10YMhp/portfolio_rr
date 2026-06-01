@@ -3,7 +3,7 @@ import { Card } from "./_components/Card";
 import HomePageClient from "./client";
 
 export default async function Home() {
-  const challenges: MinimalChallenge[] = (await getChallenges()).slice(0, 20);
+  const challenges: MinimalChallenge[] = await getChallenges();
 
   return (
     <main>
