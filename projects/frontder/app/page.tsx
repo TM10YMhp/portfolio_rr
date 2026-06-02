@@ -6,7 +6,7 @@ export default async function Home() {
   const challenges: MinimalChallenge[] = await getChallenges();
 
   return (
-    <main>
+    <>
       <HomePageClient data={challenges} />
 
       <ul
@@ -20,6 +20,6 @@ export default async function Home() {
           <Card key={challenge.id} as="li" challenge={challenge} />
         ))}
       </ul>
-    </main>
+    </>
   );
 }

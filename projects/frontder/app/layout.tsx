@@ -32,7 +32,8 @@ export default function RootLayout({
       // `min-h-full` no es necesario pero es interesante que afecte el degradado
       className={`${geistSans.variable} ${geistMono.variable} antialiased scrollbar-gutter-both min-h-full`}
     >
-      <body className="bg-neutral-950 bg-linear-to-b from-neutral-950 via-neutral-950 to-neutral-900 text-white min-h-screen h-auto">
+      {/* bg-no-repeat fix firefox */}
+      <body className="bg-no-repeat bg-neutral-950 bg-linear-to-b from-neutral-950 via-neutral-950 to-neutral-900 text-white min-h-screen h-auto">
 
         <nav className="glass sticky top-0 z-50 mb-6">
           <div className="max-w-7xl mx-auto px-8 h-14 flex items-center justify-between">

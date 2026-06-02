@@ -5,6 +5,7 @@ import { getChallengesByIds } from "@/services/challenge";
 import { getBase64 } from "@/util/base64";
 
 async function getSavedChallenges(): Promise<MinimalChallenge[]> {
+  // await new Promise((resolve) => setTimeout(resolve, 1000));
   const cookieStore = await cookies();
   const data = cookieStore.get("liked");
   if (!data) return [];
@@ -17,8 +18,8 @@ export default async function LikedPage() {
   const savedChallenges: MinimalChallenge[] = await getSavedChallenges();
 
   return (
-    <div className="space-y-6 max-w-6xl mx-auto">
-      <div className="card px-5 py-4 flex items-center justify-between animate-fade-in">
+    <>
+      <div className="card px-5 py-4 flex items-center justify-between">
         <Link
           href="/"
           className="flex items-center gap-2 text-sm text-white/60 hover:text-white transition-colors"
@@ -26,7 +27,7 @@ export default async function LikedPage() {
           <i className="nf nf-oct-arrow_left" />
           Volver
         </Link>
-        <span className="text-sm text-white/60">
+        <span className="text-sm text-white/60 animate-fade-in">
           <strong className="text-white">{savedChallenges.length}</strong>{" "}
           proyectos seleccionados
         </span>
@@ -85,6 +86,6 @@ export default async function LikedPage() {
           ))}
         </div>
       )}
-    </div>
+    </>
   );
 }
