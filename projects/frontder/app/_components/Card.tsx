@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 type CardProps = {
-  challenge: MinimalChallenge;
+  challenge: MinimalChallengeWithBlur;
   as?: React.ElementType;
   draggable?: boolean;
   className?: string;
@@ -39,7 +39,8 @@ export const Card = ({
           height={348}
           className="shrink-0 transition-transform duration-500 group-hover:scale-105"
           placeholder="blur"
-          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mPU9s8IBAACxAE1FlQDGwAAAABJRU5ErkJggg=="
+          // blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mPU9s8IBAACxAE1FlQDGwAAAABJRU5ErkJggg=="
+          blurDataURL={challenge.blurDataURL}
         />
         <div className="absolute inset-0 bg-linear-to-t from-neutral-900/60 to-transparent" />
       </div>

@@ -41,7 +41,7 @@ const FinalCard = () => {
   );
 };
 
-export default function HomePageClient({ data }: { data: MinimalChallenge[] }) {
+export default function HomePageClient({ data }: { data: MinimalChallengeWithBlur[] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const challenges = data.slice(currentIndex, currentIndex + 3);
 

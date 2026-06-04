@@ -16,6 +16,8 @@ declare global {
     Challenge,
     "id" | "description" | "heroImage" | "slug" | "title"
   >;
+
+  type MinimalChallengeWithBlur = MinimalChallenge & { blurDataURL: string };
 }
 
 export {};
