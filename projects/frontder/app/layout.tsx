@@ -4,6 +4,7 @@ import Link from "next/link";
 import "./globals.css";
 import "@/assets/css/webfont.css";
 import { ToastContainer } from "react-toastify";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,11 +31,21 @@ export default function RootLayout({
     <html
       lang="es"
       // `min-h-full` no es necesario pero es interesante que afecte el degradado
-      className={`${geistSans.variable} ${geistMono.variable} antialiased scrollbar-gutter-both min-h-full`}
+      className={`${geistSans.variable} ${geistMono.variable} antialiased scrollbar-gutter-stable pl-(--scrollbar-width) min-h-full`}
     >
+      <head>
+        {/* `scroll-gutter-both` falla en firefox, usar `scrollbar-gutter-stable pl-[var(--scrollbar-width, 16px)]` */}
+        <Script id="scrollbar-fix" strategy="beforeInteractive">
+          {`
+          const scrollBarWidth = window.innerWidth - document.documentElement.clientWidth;
+          const styleTag = document.createElement('style');
+          styleTag.textContent = ":root { --scrollbar-width: " + scrollBarWidth + "px; }";
+          document.head.appendChild(styleTag);
+          `}
+        </Script>
+      </head>
       {/* bg-no-repeat fix firefox */}
       <body className="bg-no-repeat bg-neutral-950 bg-linear-to-b from-neutral-950 via-neutral-950 to-neutral-900 text-white min-h-screen h-auto">
-
         <nav className="glass sticky top-0 z-50 mb-6">
           <div className="max-w-7xl mx-auto px-8 h-14 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-2 group">

@@ -1,10 +1,11 @@
+import { getChallengesByIds } from "@/services/challenge";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(
   req: NextRequest,
-  // ctx: RouteContext<"/api/like/[[...slug]]">,
-): Promise<NextResponse<MinimalChallenge["id"][]>> {
-  // const { slug } = await ctx.params;
+  ctx: RouteContext<"/api/like/[[...slug]]">,
+): Promise<NextResponse<MinimalChallenge["id"][] | MinimalChallenge[]>> {
+  const { slug } = await ctx.params;
   // if (!slug) return NextResponse.json([]);
   // return NextResponse.json(slug);
 
@@ -15,6 +16,11 @@ export async function GET(
   if (!data) return NextResponse.json([]);
 
   const ids = JSON.parse(data.value) as MinimalChallenge["id"][];
+
+  if (slug?.[0] === "challenges") {
+    return NextResponse.json(await getChallengesByIds(ids));
+  }
+
   return NextResponse.json(ids);
 }
 
